@@ -45,7 +45,6 @@ class UpcomingViewController: UIViewController {
                 DispatchQueue.main.async {
                     self?.upcomingTableView.reloadData()
                 }
-                print(titles)
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -70,7 +69,7 @@ extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150
+        return 140
     }
     
 }
