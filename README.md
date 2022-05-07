@@ -2,4 +2,4 @@
 
 API: https://www.themoviedb.org/
 
-This app ws made by following a tutorial on Youtube. https://www.youtube.com/c/AmrCodes
+This app was made by following a tutorial on Youtube. https://www.youtube.com/c/AmrCodes
